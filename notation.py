@@ -28,7 +28,7 @@ if __name__ == "__main__":
             if continue_input.lower() != "y":
                 break
         except ValueError as e:
-            print(f"Ошибка ввода: {e}. Пожалуйста, введите целое число для числа и целое число от 2 до 16 для основания.")
+            print(f"Ошибка ввода: {e}.")
         except Exception as e:
-            print(f"Произошла неожиданная ошибка: {e}")
+            print(f"Произошла ошибка: {e}")
 

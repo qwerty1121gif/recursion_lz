@@ -27,7 +27,7 @@ if __name__ == "__main__":
             if continue_input.lower() != "y":
                 break
         except ValueError:
-            print("Ошибка ввода. Пожалуйста, введите целое число.")
+            print("Ошибка ввода. Введите целое число.")
         except Exception as e:
             print(f"Произошла ошибка: {e}")
 
